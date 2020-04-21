@@ -51,8 +51,11 @@ Core CLI commands:
 
 Full log of all ML experiments and results run with `sct run`. Experiments linked with Git commits from running `git push-sct` will be flagged for review/deployment.
 
-![logo](webapp1.png)
-![logo](webapp2.png)
+![webapp1](assets/webapp1.png)
+![webapp2](assets/webapp2.png)
 
 ## 3. GitHub app: [Link here]
 
+After pushing to GitHub with `git push-sct`, opening a pull request will trigger the Scout.ml bot to auto-comment with experiment results + metadata. Roadmap: Scout.ml will automatically detect model regressions + flag dataset changes. GitHub app will prevent merge/raise error within PR console.
+
+![github1](assets/github1.png)
