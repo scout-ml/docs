@@ -59,3 +59,7 @@ Full log of all ML experiments and results run with `sct run`. Experiments linke
 After pushing to GitHub with `git push-sct`, opening a pull request will trigger the Scout.ml bot to auto-comment with experiment results + metadata. Roadmap: Scout.ml will automatically detect model regressions + flag dataset changes. GitHub app will prevent merge/raise error within PR console.
 
 ![github1](assets/github1.png)
+
+## Notes
+
+1. Scout CLI uses cronjobs to monitor job progress + metrics. You'll need to give Terminal this permission when prompted the first time.
